@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-direction: column; 
+}
+#header{
+	height:75px;
+	background:#102F40;
+}
+
+#footer{
+	height:75px;
+	background:#102F40;
+}
+#title{
+	margin:0;
+	color:white;
+	float:left;
+}
+#title2{
+	margin:0 ;
+	color:white;
+	float:left;
+	clear:left;
+	
+}
+.title{
+	padding-left:15px;
+}
+.nav{
+	float:right;
+}
+.nav li{
+	padding:11px;
+	padding-top:20px;
+	font-size:16px;
+	cursor:pointer;
+	float:left;
+	list-style:none;
+}
+.nav a{
+	color:white;
+}
+#main{
+	padding:25px;
+}
+#pic1{
+	float:left;
+	clear:both;
+	padding-bottom:15px;
+	padding-right:25px;
+}
+#pic2{
+	float:right;
+	clear:both;
+	padding-bottom:15px;
+	padding-left:25px;	
+}
+#pic3{
+	float:left;
+	clear:both;
+	padding-bottom:15px;
+	padding-right:25px;
+}
+.clearfix{
+	overflow:auto;
+	padding:25px;
+}
+.center{
+	text-align:center;
+	margin:0 auto;
+}
+.cause-heading{
+	margin-bottom:15px;
+}

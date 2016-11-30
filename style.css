@@ -15,6 +15,9 @@
 	color:white;
 	letter-spacing:3px;
 }
+#head a{
+	text-decoration:none;
+}
 .dropbtn {
     background-color:#102F40;
     color:white;
@@ -80,6 +83,10 @@
 #content p{
 	padding:25px;
 }
+.heading{
+	padding:25px;
+	margin:0 0 10px 0;
+}
 #content h2{
 	padding-bottom:15px;
 }
@@ -129,4 +136,7 @@
 }
 #bg-color{
 	background:#102F40;
+}
+.subHead{
+	padding-top:15px;
 }
