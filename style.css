@@ -1,5 +1,11 @@
-#main{
-	background-image:url('industry.jpg');
+p,a{
+	font-family: 'open sans', sans-serif;
+}
+h1,h2,h3,h4{
+	font-family: 'roboto condensed', sans-serif;
+}
+#background{
+	background-image:url('images/industry.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center ;
@@ -10,7 +16,7 @@
 #head{
 	padding-top:5px;
 }
-#title{
+#title1{
 	display:inline;
 	color:white;
 	letter-spacing:3px;
@@ -18,7 +24,6 @@
 #head a{
 	text-decoration:none;
 }
-
 .dropbtn {
     background-color:#102F40;
     color:white;
@@ -48,25 +53,24 @@
     text-decoration:none;
     display:block;
 }
-
 .dropdown-content a:hover {
 	background-color: #f1f1f1
 }
 .show{
 	display:block;
 }
-#more{
+#scroll{
 	background-color: Transparent;
     border: 2px solid white;
 	border-radius:5px;
     cursor:pointer;
-	margin-top:50vh;
 	padding:4px;
-}
-#more a{
 	color:white;
 	text-decoration:none;
 	font-size:17px;
+}
+#scroll-btn{
+	margin-top:50vh;
 }
 #define{
 	text-align:center;
@@ -80,6 +84,8 @@
 #footer{
 	height:75px;
 	background:#102F40;
+	width:100%;
+	margin-top:15px;
 }
 #content p{
 	padding:25px;
@@ -91,13 +97,13 @@
 #content h2{
 	padding-bottom:15px;
 }
-.img-fade {
+.img-fade{
 	position:relative;
 	height:303px;
 	width:425px;
 	margin-bottom:25px;
 }
-#bg-color h2{
+#effects-color h2{
 	color:white;
 }
 .imgDescription {
@@ -135,9 +141,81 @@
 	transform:translateY(0%);
 	transition-delay:0s, 0s, 0.3s;
 }
-#bg-color{
+#effects-color{
 	background:#102F40;
 }
 .subHead{
 	padding-top:15px;
+}
+#header{
+	height:75px;
+	background:#102F40;
+}
+#title{
+	margin:0;
+	color:white;
+	float:left;
+}
+#title2{
+	margin:0 ;
+	color:white;
+	float:left;
+	clear:left;
+}
+.title{
+	padding-left:15px;
+}
+.nav{
+	float:right;
+}
+.nav li{
+	padding:11px;
+	padding-top:20px;
+	font-size:16px;
+	cursor:pointer;
+	float:left;
+	list-style:none;
+}
+.nav a{
+	color:white;
+}
+#pic1{
+	float:left;
+	clear:both;
+	padding-bottom:15px;
+	padding-right:25px;
+}
+#pic2{
+	float:right;
+	clear:both;
+	padding-bottom:15px;
+	padding-left:25px;	
+}
+#pic3{
+	float:left;
+	clear:both;
+	padding-bottom:15px;
+	padding-right:25px;
+}
+.clearfix{
+	overflow:auto;
+	padding:25px;
+}
+.heading{
+	margin-bottom:15px;
+}
+#main{
+	padding:25px;
+	min-height:calc(100vh - 150px);
+}
+.space{
+	padding:25px;
+}
+#heading4{
+	padding-bottom:0;
+}
+#copyright{
+	color:white;
+	font-size:25px;
+	padding-top:20px;
 }

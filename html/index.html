@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	
+		<title>Climate Change</title>
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		<!-- Roboto Condensed font -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+		
+		<!-- Open Sans font -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" >
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="../style.css"/>
+	</head>
+    <body>
+			<div id="background">
+				<div id="head">
+					<a href="index.html"><h1 id="title1" class="center">Climate Change</h1></a>
+					<div class="dropdown">
+						<button onclick="menu()" class="dropbtn">menu</button>
+						<div id="myDropdown" class="dropdown-content">
+							<a href="causes.html">Causes</a>
+							<a href="effects.html">Effects</a>
+							<a href="solutions.html">Solutions</a>			
+							<a href="JavaScript.html">JavaScript</a>			
+						</div>
+					</div>
+				</div>
+				<div id="scroll-btn">
+					<a href="#anchor" id="scroll">learn More</a>
+				</div>
+			</div>
+			<div id="content">
+				<a name="anchor"></a>
+				<p id="define">Global climate is the average climate over the entire planet. 
+				And the reason people are concerned is because the Earth's global climate is changing. 
+				The planet is warming up fast—faster than at any time scientists know about from their 
+				studies of Earth's entire history.</p>
+				<h2 class="center">Causes</h2>
+				<div class="container-fluid center">
+					<div class="row">
+						<div class="col-xs-12 col-sm-4">
+							<a href="causes.html"><img src="../images/deforestation.jpg"></a>
+							<h3 class="heading">Deforestation </h3>
+					</div>
+					  <div class="col-xs-12 col-sm-4">
+						<a href="causes.html"><img src="../images/oil.jpg"></a>
+						<h3 class="heading">Fossil Fuels</h3>
+					  </div>
+					  <div class="col-xs-12 col-sm-4">
+						<a href="causes.html"><img src="../images/gases.jpg"></a>
+						<h3 class="heading">Greenhouse Gases</h3>
+					  </div>
+					</div>
+				</div>
+				<div id="effects-color">
+					<h2 class="center subHead">Effects</h2>
+					<div class="container-fluid center">
+						<div class="row">
+							<div class="col-xs-12 col-md-6">
+								<div class="img-fade center">
+									<img src="../images/ice.jpg">
+									<a href="effects.html"><h3 class="imgDescription center">Melting Ice Caps</h3></a>
+								</div>
+							</div>
+							<div  class="col-xs-12 col-md-6">
+								<div class="img-fade center">
+									<img src="../images/crop.jpg">
+									<a href="effects.html"><h3 class="imgDescription center">Crop Failure</h3></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2 class="center subHead">Solutions</h2>
+				<div class="container-fluid center">
+					<div class="row">
+						<div class="col-xs-12 col-sm-4">
+							<a href="solutions.html" class="solution-img"><img src="../images/renewable.jpg" class="solution-img"></a>
+							<h3 class="solutions center">Renewable Enery</h3>
+					</div>
+					  <div class="col-xs-12 col-sm-4">
+						<div>
+							<a href="solutions.html" class="solution-img"><img src="../images/carbon.jpg" class="solution-img"></a>
+							<h3 class="solutions center">Carbon Capture</h3>
+						</div>
+					  </div>
+					  <div class="col-xs-12 col-sm-4">
+						<div>
+							<a href="solutions.html" class="solution-img"><img src="../images/fusion.jpg" class="solution-img"></a>
+							<h3 class="solutions center">Nuclear Fusion</h3>
+						</div>
+					  </div>
+					</div>
+				</div>
+		</div>
+		<div id="footer" class="center">
+			<p id="copyright">&copy; 2016</p>
+		</div>
+		<script>
+			//dropdown menu
+			function menu() {
+				document.getElementById("myDropdown").classList.toggle("show");
+			}
+			
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}		
+			
+		</script>
+	</body>
+</html>
